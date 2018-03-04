@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const int N = 21000;
+const int N = 50000 * 2 + 10;
 
 typedef long long ll;
 
