@@ -1,8 +1,8 @@
 # SA/SAM泛做
 
-- [ ] bzoj 4556
+- [x] bzoj 4556
 - [x] bzoj 4199
-- [ ] bzoj 2946
+- [x] bzoj 2946
 - [ ] bzoj 2882
 - [ ] bzoj 3998
 - [ ] bzoj 4566
