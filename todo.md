@@ -3,10 +3,10 @@
 - [x] bzoj 4556
 - [x] bzoj 4199
 - [x] bzoj 2946
-- [ ] bzoj 2882
-- [ ] bzoj 3998
+- [x] bzoj 2882
+- [x] bzoj 3998
 - [ ] bzoj 4566
-- [ ] bzoj 3238
+- [x] bzoj 3238
 - [ ] bzoj 2806
 - [ ] bzoj 2555
 - [x] bzoj 3926
