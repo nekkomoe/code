@@ -1,5 +1,5 @@
 // 题意：求严格/不严格第k大子串
-// 题解：前缀树上dp
+// 题解：SAM上dp
 // 标签；SAM
 
 #include <bits/stdc++.h>
