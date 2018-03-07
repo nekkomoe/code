@@ -17,7 +17,7 @@ int nd(int l) {
 void ins(int c) {
     int p, np, q, nq;
     pre[np = last = nd(len[p = last] + 1)] = 1, sz[np] = 1;
-    while(c && !ch[p][c]) ch[p][c] = np, p = pre[p];
+    while(p && !ch[p][c]) ch[p][c] = np, p = pre[p];
     if(p) {
         pre[np] = q = ch[p][c];
         if(len[p] + 1 != len[q]) {
