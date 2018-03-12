@@ -17,8 +17,9 @@
 - [ ] bzoj 3756
 - [ ] bzoj 1396
 - [ ] bzoj 2865
-- [ ] bzoj 3473
+- [ ] bzoj 3277 / bzoj 3473
 - [ ] bzoj 4032
+- [ ] bzoj 4516 / loj 2033
 - [ ] bzoj 4768
 - [ ] bzoj 5084
 - [x] hiho 1403
@@ -33,11 +34,10 @@
 - [ ] hiho 1466
 - [x] cf 235C
 - [x] bzoj 4650
-- [ ] bzoj 4698
-- [ ] bzoj 1717
+- [x] bzoj 4698
+- [x] bzoj 1717
 - [ ] bzoj 3676
 - [ ] bzoj 4310
-- [ ] bzoj 3277
 - [ ] bzoj 3145
 - [ ] hdu 5030
 - [ ] poj 1743
@@ -326,6 +326,31 @@
 - [ ] bzoj 2594
 - [ ] bzoj 3669
 - [ ] bzoj 4025
+- [x] bzoj 2049
+- [ ] luogu P3690
+- [ ] luogu P3203
+- [ ] luogu P2173
+- [ ] luogu P1501
+- [ ] luogu P4172
+- [ ] hdu 5398
+- [ ] bzoj 4736
+- [ ] luogu P1505
+- [ ] luogu P2542
+- [ ] luogu P2486
+- [ ] luogu P4180
+- [ ] luogu P4324 / poj 3522
+- [ ] bzoj 4998
+- [ ] bzoj 2959
+- [ ] bzoj 4530 / loj 2230
+- [ ] uoj 207
+- [ ] cogs 2701
+- [ ] bzoj 3626
+- [ ] thuwc 2017
+- [ ] luogu P3721
+- [ ] bzoj 3514
+- [ ] luogu P3703
+- [ ] luogu P3613
+- [x] luogu P3690
 
 ## 动态规划/斜率优化/四边形不等式优化/决策单调性优化/SPFA优化
 
