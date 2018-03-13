@@ -96,4 +96,4 @@ int main() {
     int ans = ansmax[1] - ansmin[1];
     for(int i = 1 ; i <= n ; ++ i) cmin(ans, ansmax[i] - ansmin[i]);
     printf("%d\n", ans);
-}z
+}
