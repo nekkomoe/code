@@ -97,6 +97,7 @@
 - [x] bzoj 1934
 - [x] bzoj 1927
 - [x] bzoj 1324
+- [x] bzoj 3438
 - [ ] bzoj 1565
 - [ ] bzoj 1797
 - [ ] bzoj 1061
@@ -114,7 +115,6 @@
 - [ ] bzoj 1449
 - [ ] bzoj 3280
 - [ ] bzoj 5120
-- [x] bzoj 3438
 - [ ] bzoj 3281
 - [ ] bzoj 1412
 - [ ] bzoj 2561
@@ -157,11 +157,21 @@
 
 ## FFT/NTT/FWT
 
-- [ ] bzoj 3527
-- [ ] bzoj4259
+- [x] bzoj 2179
+- [ ] bzoj 2194
+- [x] bzoj 3527
+- [ ] bzoj 3509
+- [ ] bzoj 4259
 - [ ] hdu 5830
 - [ ] bzoj 3456
-- [x] hdu 5730
+- [ ] bzoj 4503
+- [ ] bzoj 2287
+- [ ] bzoj 4555
+- [ ] bzoj 3625
+- [ ] bzoj 3557
+- [ ] bzoj 3160
+- [ ] luogu U18204 / loj 2286
+- [ ] hdu 5730
 
 ## 树链剖分
 
@@ -213,8 +223,8 @@
 ## KD tree
 
 - [x] bzoj 1941
-- [ ] bzoj 2716
-- [ ] bzoj 2648
+- [x] bzoj 2716
+- [x] bzoj 2648
 - [ ] bzoj 2850
 - [ ] bzoj 4066
 - [ ] bzoj 2683
@@ -297,7 +307,7 @@
 - [x] bzoj 2301
 - [x] bzoj 2820
 - [ ] bzoj 3529
-- [ ] bzoj 2154
+- [x] bzoj 2154
 - [ ] bzoj 2693
 - [ ] bzoj 3309
 - [ ] bzoj 3944
@@ -305,7 +315,7 @@
 - [ ] bzoj 4176
 - [x] bzoj 2005
 - [ ] bzoj 3561
-- [ ] bzoj 2705
+- [x] bzoj 2705
 - [ ] uoj 221
 - [ ] bzoj 4652
 - [ ] 51nod 1238
@@ -365,6 +375,7 @@
 - [x] bzoj 1010
 - [ ] bzoj 3875
 - [ ] bzoj 2734
+- [ ] bzoj 4518
 
 ## 计算几何
 
