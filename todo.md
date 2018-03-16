@@ -161,7 +161,7 @@
 ## FFT/NTT/FWT
 
 - [x] bzoj 2179
-- [ ] bzoj 2194
+- [x] bzoj 2194
 - [x] bzoj 3527
 - [ ] bzoj 3509
 - [ ] bzoj 4259
@@ -201,6 +201,7 @@
 - [ ] bzoj 2001
 - [ ] bzoj 3745
 - [ ] bzoj 3262
+- [ ] hdu 5127
 
 ## 差分约束系统
 
