@@ -9,19 +9,27 @@
 - [x] bzoj 3998
 - [x] bzoj 4566
 - [x] bzoj 3238
-- [ ] bzoj 2806
-- [ ] bzoj 2555
 - [x] bzoj 3926
 - [x] bzoj 3879
+- [x] bzoj 4516
+- [x] bzoj 4650
+- [x] bzoj 4698
+- [x] bzoj 1717
+- [ ] bzoj 3676
+- [ ] bzoj 4310
+- [ ] bzoj 3145
+- [ ] bzoj 2806
+- [ ] bzoj 2555
 - [ ] bzoj 2780
 - [ ] bzoj 3756
 - [ ] bzoj 1396
 - [ ] bzoj 2865
-- [ ] bzoj 3277 / bzoj 3473
+- [ ] bzoj 3277
+- [ ] bzoj 3473
 - [ ] bzoj 4032
-- [x] bzoj 4516 / loj 2033
 - [ ] bzoj 4768
 - [ ] bzoj 5084
+- [x] loj 2033
 - [x] hiho 1403
 - [x] hiho 1407
 - [x] hiho 1415
@@ -33,22 +41,24 @@
 - [x] hiho 1465
 - [ ] hiho 1466
 - [x] cf 235C
-- [x] bzoj 4650
-- [x] bzoj 4698
-- [x] bzoj 1717
-- [ ] bzoj 3676
-- [ ] bzoj 4310
-- [ ] bzoj 3145
 - [ ] hdu 5030
-- [ ] poj 1743
-- [ ] poj 3261
-- [ ] spoj 694
-- [ ] spoj 705
-- [ ] ural 1297
+- [x] poj 1743
+- [x] poj 3261
+- [x] poj 3415
+- [x] poj 3294
 - [ ] poj 2774
+- [ ] poj 3080
+- [ ] poj 3450
+- [ ] ural 1297
 - [ ] ural 1517
-- [ ] poj 3294
 - [x] spoj 8222
+- [x] spoj 694
+- [x] spoj 705
+- [ ] spoj 8093
+
+## kmp
+
+- [x] poj 2406
 
 ## 点分治/动态点分治/点分序
 
@@ -76,6 +86,13 @@
 - [x] bzoj 1115
 - [ ] bzoj 1188
 - [ ] bzoj 4730
+- [ ] bzoj 4035
+- [ ] bzoj 3729
+- [ ] bzoj 2017
+- [ ] bzoj 2688
+- [ ] bzoj 2281
+- [ ] bzoj 1982
+- [ ] bzoj 2437
 
 ## 网络流
 
@@ -215,8 +232,12 @@
 
 ## manacher/回文树/回文自动机
 
-- [ ] bzoj 3676
+- [x] bzoj 3676
 - [ ] bzoj 2565
+- [ ] ural 1960
+- [ ] TsinsenA1280
+- [ ] TsinsenA1255
+- [ ] TsinsenA1393
 
 ## 线段树/树状数组
 
@@ -321,29 +342,31 @@
 - [x] bzoj 1101
 - [x] bzoj 2301
 - [x] bzoj 2820
-- [ ] bzoj 3529
 - [x] bzoj 2154
+- [x] bzoj 2005
+- [x] bzoj 2705
+- [x] bzoj 3994
+- [x] bzoj 1968
+- [x] bzoj 2818
+- [x] bzoj 2440
+- [ ] bzoj 3529
 - [ ] bzoj 2693
 - [ ] bzoj 3309
 - [ ] bzoj 3944
 - [ ] bzoj 4407
 - [ ] bzoj 4176
-- [x] bzoj 2005
 - [ ] bzoj 3561
-- [x] bzoj 2705
-- [ ] uoj 221
 - [ ] bzoj 4652
-- [ ] 51nod 1238
 - [ ] bzoj 3512
-- [x] bzoj 3994
 - [ ] bzoj 3516
 - [ ] bzoj 4659
 - [ ] bzoj 4174
 - [ ] bzoj 3930
+- [ ] bzoj 2627
+- [ ] bzoj 3601
 - [ ] hdu 1695
-- [x] bzoj 1968
-- [x] bzoj 2818
-- [x] bzoj 2440
+- [ ] uoj 221
+- [ ] 51nod 1238
 
 ## 莫队/分块
 
@@ -391,6 +414,10 @@
 - [ ] bzoj 3875
 - [ ] bzoj 2734
 - [ ] bzoj 4518
+
+## 树形dp
+
+- [ ] luogu P3174
 
 ## 计算几何
 
@@ -512,6 +539,15 @@
 - [ ] bzoj 4554
 - [ ] bzoj 4555
 - [ ] bzoj 4556
+
+### 2017
+
+- [ ] bzoj 4868
+- [ ] bzoj 4869
+- [ ] bzoj 4870
+- [ ] bzoj 4871
+- [ ] bzoj 4872
+- [ ] bzoj 4873
 
 # 题目泛做
 
