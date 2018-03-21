@@ -168,25 +168,30 @@
 
 ## 二分图匹配
 
+- [x] bzoj 1735
 - [ ] bzoj 1854
 - [ ] bzoj 1433
-- [x] bzoj 1735
 
 ## 虚树
 
 - [x] bzoj 3611
+- [x] bzoj 3879
+- [ ] bzoj 3991
+- [ ] bzoj 2286
+- [ ] bzoj 3572
 
 ## FFT/NTT/FWT
 
 - [x] bzoj 2179
 - [x] bzoj 2194
 - [x] bzoj 3527
+- [ ] bzoj 3456
+- [ ] bzoj 4555
+- [ ] bzoj 5093
 - [ ] bzoj 3509
 - [ ] bzoj 4259
-- [ ] bzoj 3456
 - [ ] bzoj 4503
 - [ ] bzoj 2287
-- [ ] bzoj 4555
 - [ ] bzoj 3625
 - [ ] bzoj 3557
 - [ ] bzoj 3160
@@ -195,6 +200,7 @@
 - [ ] hdu 5730
 - [ ] hdu 5830
 - [ ] hdu 4609
+- [ ] cf 553 E
 
 ## 树链剖分
 
@@ -233,7 +239,9 @@
 ## manacher/回文树/回文自动机
 
 - [x] bzoj 3676
+- [x] dloj 1003
 - [ ] bzoj 2565
+- [ ] bzoj 4044
 - [ ] ural 1960
 - [ ] TsinsenA1280
 - [ ] TsinsenA1255
@@ -323,7 +331,11 @@
 
 ## 基环树
 
+- [ ] bzoj 1040
 - [ ] bzoj 1791
+- [ ] bzoj 2878
+- [ ] bzoj 3243
+- [ ] bzoj 2791
 
 ## 启发式合并
 
@@ -376,6 +388,12 @@
 - [ ] bzoj 1086
 - [ ] bzoj 3052
 - [ ] bzoj 4540
+- [ ] bzoj 3460
+- [ ] bzoj 4810
+- [ ] bzoj 4866
+- [ ] hdu 4676
+- [ ] bzoj 4540
+- [x] luogu P2709
 
 ## LCT
 
@@ -414,10 +432,25 @@
 - [ ] bzoj 3875
 - [ ] bzoj 2734
 - [ ] bzoj 4518
+- [ ] poj 1050 (easy)
+- [ ] poj 1953 (easy)
+- [ ] poj 1015 (normal)
+- [ ] poj 1717 (normal)
+- [ ] poj 1141 (hard)
+- [ ] poj 1671 (hard)
+- [ ] poj 2161 (extreme)
+- [ ] poj 1112
+- [ ] poj 2151
+- [ ] poj 1920
+- [ ] poj 1037 (hard)
+- [ ] poj 1737 (hard)
 
 ## 树形dp
 
 - [ ] luogu P3174
+- [ ] poj 2486
+- [ ] poj 3345
+- [ ] poj 3585
 
 ## 计算几何
 
@@ -428,6 +461,11 @@
 - [ ] bzoj 2732
 - [ ] bzoj 1249
 - [ ] bzoj 2961
+- [ ] bzoj 1069
+- [ ] bzoj 1185
+- [ ] bzoj 2832
+- [ ] bzoj 3564
+- [ ] bzoj 2280
 - [x] bzoj 1007
 - [x] bzoj 2829
 - [ ] poj 1408
