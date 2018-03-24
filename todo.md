@@ -16,17 +16,17 @@
 - [x] bzoj 4698
 - [x] bzoj 1717
 - [x] bzoj 3676
+- [x] bzoj 3277
+- [x] bzoj 3473
+- [x] bzoj 2780
+- [x] bzoj 4032
+- [x] bzoj 1396
+- [x] bzoj 2865
+- [ ] bzoj 2555
 - [ ] bzoj 4310
 - [ ] bzoj 3145
 - [ ] bzoj 2806
-- [ ] bzoj 2555
-- [ ] bzoj 2780
 - [ ] bzoj 3756
-- [ ] bzoj 1396
-- [ ] bzoj 2865
-- [ ] bzoj 3277
-- [ ] bzoj 3473
-- [ ] bzoj 4032
 - [ ] bzoj 4768
 - [ ] bzoj 5084
 - [x] loj 2033
@@ -46,7 +46,7 @@
 - [x] poj 3261
 - [x] poj 3415
 - [x] poj 3294
-- [ ] poj 2774
+- [x] poj 2774
 - [ ] poj 3080
 - [ ] poj 3450
 - [ ] ural 1297
@@ -54,11 +54,16 @@
 - [x] spoj 8222
 - [x] spoj 694
 - [x] spoj 705
-- [ ] spoj 8093
+- [x] spoj 8093
+- [ ] spoj 8747
 
 ## kmp
 
 - [x] poj 2406
+
+## shift-and shift-or
+
+- [ ] bzoj 2628
 
 ## 点分治/动态点分治/点分序
 
@@ -93,6 +98,7 @@
 - [ ] bzoj 2281
 - [ ] bzoj 1982
 - [ ] bzoj 2437
+- [ ] bzoj 2316
 
 ## 网络流
 
@@ -102,6 +108,7 @@
 - [x] hiho 1394
 - [x] hiho 1398
 - [ ] poj 2987
+- [ ] poj 1895
 - [x] bzoj 1305
 - [x] bzoj 3144
 - [x] bzoj 2756
@@ -140,6 +147,7 @@
 - [ ] bzoj 3698
 - [ ] bzoj 1221
 - [ ] bzoj 1189
+- [ ] bzoj 4849
 - [x] loj 6000
 - [x] loj 6001
 - [x] loj 6002
@@ -169,6 +177,7 @@
 ## 二分图匹配
 
 - [x] bzoj 1735
+- [x] bzoj 4554
 - [ ] bzoj 1854
 - [ ] bzoj 1433
 
@@ -210,6 +219,7 @@
 - [ ] bzoj 3779
 - [ ] bzoj 3589
 - [ ] bzoj 2819
+- [ ] bzoj 4353
 
 ## 线段树分治/cdq分治
 
@@ -228,6 +238,10 @@
 - [ ] hdu 5127
 
 ## 差分约束系统
+
+## 最短路
+
+- [ ] bzoj 2143
 
 ## AC自动机
 
@@ -259,6 +273,7 @@
 - [ ] bzoj 3073
 - [ ] bzoj 3653
 - [x] ezoj 1169
+- [x] ezoj 1185
 - [ ] uoj 88
 - [x] bzoj 2743
 
@@ -397,33 +412,34 @@
 
 ## LCT
 
+- [x] bzoj 2049
+- [ ] bzoj 2555
 - [ ] bzoj 2594
 - [ ] bzoj 3669
 - [ ] bzoj 4025
-- [x] bzoj 2049
+- [ ] bzoj 4736
+- [ ] bzoj 4998
+- [ ] bzoj 2959
+- [ ] bzoj 3514
+- [ ] bzoj 4530 / loj 2230
+- [ ] bzoj 3626
+- [ ] uoj 207
+- [ ] cogs 2701
+- [ ] thuwc 2017
+- [ ] hdu 5398
+- [ ] luogu P3703
+- [ ] luogu P3613
+- [ ] luogu P3721
 - [ ] luogu P3690
 - [ ] luogu P3203
 - [ ] luogu P2173
 - [ ] luogu P1501
 - [ ] luogu P4172
-- [ ] hdu 5398
-- [ ] bzoj 4736
 - [ ] luogu P1505
 - [ ] luogu P2542
 - [ ] luogu P2486
 - [ ] luogu P4180
 - [ ] luogu P4324 / poj 3522
-- [ ] bzoj 4998
-- [ ] bzoj 2959
-- [ ] bzoj 4530 / loj 2230
-- [ ] uoj 207
-- [ ] cogs 2701
-- [ ] bzoj 3626
-- [ ] thuwc 2017
-- [ ] luogu P3721
-- [ ] bzoj 3514
-- [ ] luogu P3703
-- [ ] luogu P3613
 - [x] luogu P3690
 
 ## 动态规划/斜率优化/四边形不等式优化/决策单调性优化/SPFA优化
@@ -432,6 +448,8 @@
 - [ ] bzoj 3875
 - [ ] bzoj 2734
 - [ ] bzoj 4518
+- [ ] bzoj 4321
+- [x] bzoj 2958
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)
@@ -445,12 +463,17 @@
 - [ ] poj 1037 (hard)
 - [ ] poj 1737 (hard)
 
+## 期望dp
+
+- [ ] bzoj 1426
+
 ## 树形dp
 
 - [ ] luogu P3174
 - [ ] poj 2486
 - [ ] poj 3345
 - [ ] poj 3585
+- [ ] bzoj 3124
 
 ## 计算几何
 
@@ -503,15 +526,16 @@
 - [ ] bzoj 4475
 - [ ] bzoj 1004
 - [ ] bzoj 2339
+- [ ] bzoj 3142
 
 ## 多项式
 
 - [ ] bzoj 3456
 - [ ] bzoj 4555
 - [ ] bzoj 3557
-- [ ] uoj 182
 - [ ] bzoj 3625
 - [ ] loj 556
+- [ ] uoj 182
 
 ## 仙人掌/圆方树
 
