@@ -22,7 +22,7 @@
 - [x] bzoj 4032
 - [x] bzoj 1396
 - [x] bzoj 2865
-- [ ] bzoj 2555
+- [x] bzoj 2555
 - [ ] bzoj 4310
 - [ ] bzoj 3145
 - [ ] bzoj 2806
@@ -42,6 +42,8 @@
 - [ ] hiho 1466
 - [x] cf 235C
 - [ ] hdu 5030
+- [ ] hdu 4622
+- [ ] hdu 4641
 - [x] poj 1743
 - [x] poj 3261
 - [x] poj 3415
@@ -56,6 +58,8 @@
 - [x] spoj 705
 - [x] spoj 8093
 - [ ] spoj 8747
+- [ ] spoj 7258
+- [ ] luogu P4143
 
 ## kmp
 
@@ -198,23 +202,27 @@
 - [ ] bzoj 4555
 - [ ] bzoj 5093
 - [ ] bzoj 3509
+- [ ] bzoj 3557
+- [ ] bzoj 3625
 - [ ] bzoj 4259
 - [ ] bzoj 4503
 - [ ] bzoj 2287
-- [ ] bzoj 3625
-- [ ] bzoj 3557
 - [ ] bzoj 3160
 - [ ] bzoj 3992
+- [ ] bzoj 3157
+- [ ] bzoj 3516
+- [ ] bzoj 4126
 - [ ] luogu U18204 / loj 2286
 - [ ] hdu 5730
 - [ ] hdu 5830
 - [ ] hdu 4609
 - [ ] cf 553 E
-
+- [ ] loj 556
+- [ ] uoj 182
 ## 树链剖分
 
 - [ ] bzoj 4012
-- [ ] bzoj 4034
+- [x] bzoj 4034
 - [ ] bzoj 3083
 - [ ] bzoj 3779
 - [ ] bzoj 3589
@@ -246,9 +254,9 @@
 ## AC自动机
 
 - [x] bzoj 2434
-- [ ] bzoj 3530
 - [x] bzoj 2938
 - [x] bzoj 2754
+- [ ] bzoj 3530
 
 ## manacher/回文树/回文自动机
 
@@ -263,6 +271,7 @@
 
 ## 线段树/树状数组
 
+- [x] bzoj 2743
 - [ ] bzoj 1568
 - [ ] bzoj 3938
 - [ ] bzoj 3533
@@ -272,10 +281,10 @@
 - [ ] bzoj 3638
 - [ ] bzoj 3073
 - [ ] bzoj 3653
+- [ ] bzoj 4821
 - [x] ezoj 1169
 - [x] ezoj 1185
 - [ ] uoj 88
-- [x] bzoj 2743
 
 ## KD tree
 
@@ -397,23 +406,24 @@
 
 ## 莫队/分块
 
+- [x] bzoj 2038
+- [x] bzoj 1086
+- [x] bzoj 2724
 - [ ] bzoj 3757
-- [ ] bzoj 2038
-- [x] loj 6290
-- [ ] bzoj 1086
 - [ ] bzoj 3052
 - [ ] bzoj 4540
 - [ ] bzoj 3460
 - [ ] bzoj 4810
 - [ ] bzoj 4866
-- [ ] hdu 4676
 - [ ] bzoj 4540
+- [ ] hdu 4676
+- [x] loj 6290
 - [x] luogu P2709
 
 ## LCT
 
 - [x] bzoj 2049
-- [ ] bzoj 2555
+- [x] bzoj 2555
 - [ ] bzoj 2594
 - [ ] bzoj 3669
 - [ ] bzoj 4025
@@ -527,15 +537,6 @@
 - [ ] bzoj 1004
 - [ ] bzoj 2339
 - [ ] bzoj 3142
-
-## 多项式
-
-- [ ] bzoj 3456
-- [ ] bzoj 4555
-- [ ] bzoj 3557
-- [ ] bzoj 3625
-- [ ] loj 556
-- [ ] uoj 182
 
 ## 仙人掌/圆方树
 
