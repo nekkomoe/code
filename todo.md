@@ -23,6 +23,7 @@
 - [x] bzoj 1396
 - [x] bzoj 2865
 - [x] bzoj 2555
+- [ ] bzoj 2099
 - [ ] bzoj 4310
 - [ ] bzoj 3145
 - [ ] bzoj 2806
@@ -182,15 +183,15 @@
 
 - [x] bzoj 1735
 - [x] bzoj 4554
-- [ ] bzoj 1854
-- [ ] bzoj 1433
+- [x] bzoj 1854
+- [x] bzoj 1433
 
 ## 虚树
 
 - [x] bzoj 3611
 - [x] bzoj 3879
+- [x] bzoj 2286
 - [ ] bzoj 3991
-- [ ] bzoj 2286
 - [ ] bzoj 3572
 
 ## FFT/NTT/FWT
@@ -221,12 +222,12 @@
 - [ ] uoj 182
 ## 树链剖分
 
-- [ ] bzoj 4012
 - [x] bzoj 4034
-- [ ] bzoj 3083
+- [x] bzoj 3083
+- [x] bzoj 2819
+- [ ] bzoj 4012
 - [ ] bzoj 3779
 - [ ] bzoj 3589
-- [ ] bzoj 2819
 - [ ] bzoj 4353
 
 ## 线段树分治/cdq分治
@@ -261,9 +262,9 @@
 ## manacher/回文树/回文自动机
 
 - [x] bzoj 3676
-- [x] dloj 1003
 - [ ] bzoj 2565
 - [ ] bzoj 4044
+- [x] dloj 1003
 - [ ] ural 1960
 - [ ] TsinsenA1280
 - [ ] TsinsenA1255
@@ -282,6 +283,9 @@
 - [ ] bzoj 3073
 - [ ] bzoj 3653
 - [ ] bzoj 4821
+- [ ] bzoj 4262
+- [ ] bzoj 4540
+- [ ] bzoj 3545
 - [x] ezoj 1169
 - [x] ezoj 1185
 - [ ] uoj 88
@@ -342,10 +346,10 @@
 
 - [ ] poj 2104
 - [ ] hdu 2665
+- [x] bzoj 3524
 - [ ] bzoj 2809
 - [ ] bzoj 1803
 - [ ] bzoj 3932
-- [x] bzoj 3524
 - [ ] hdu 4348
 - [ ] bzoj 3123
 - [ ] bzoj 1146
@@ -411,7 +415,6 @@
 - [x] bzoj 2724
 - [ ] bzoj 3757
 - [ ] bzoj 3052
-- [ ] bzoj 4540
 - [ ] bzoj 3460
 - [ ] bzoj 4810
 - [ ] bzoj 4866
@@ -434,6 +437,7 @@
 - [ ] bzoj 4530 / loj 2230
 - [ ] bzoj 3626
 - [ ] uoj 207
+- [ ] uoj 274
 - [ ] cogs 2701
 - [ ] thuwc 2017
 - [ ] hdu 5398
@@ -484,23 +488,29 @@
 - [ ] poj 3345
 - [ ] poj 3585
 - [ ] bzoj 3124
+- [ ] bzoj 3302
+- [ ] bzoj 2447
+- [ ] bzoj 2103
 
 ## 计算几何
 
-- [ ] bzoj 1337
-- [ ] bzoj 3199
-- [ ] bzoj 2618
-- [ ] bzoj 1038
-- [ ] bzoj 2732
-- [ ] bzoj 1249
-- [ ] bzoj 2961
-- [ ] bzoj 1069
-- [ ] bzoj 1185
-- [ ] bzoj 2832
-- [ ] bzoj 3564
-- [ ] bzoj 2280
 - [x] bzoj 1007
+- [ ] bzoj 1038
+- [ ] bzoj 1069
+- [ ] bzoj 1137
+- [ ] bzoj 1185
+- [ ] bzoj 1249
+- [ ] bzoj 1337
+- [ ] bzoj 2280
+- [ ] bzoj 2618
+- [ ] bzoj 2732
 - [x] bzoj 2829
+- [ ] bzoj 2832
+- [ ] bzoj 2961
+- [ ] bzoj 3199
+- [ ] bzoj 3564
+- [ ] bzoj 3800
+- [ ] bzoj 4445
 - [ ] poj 1408
 
 ## 随机化
