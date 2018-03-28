@@ -23,19 +23,19 @@
 - [x] bzoj 1396
 - [x] bzoj 2865
 - [x] bzoj 2555
+- [x] bzoj 5084
 - [ ] bzoj 2099
 - [ ] bzoj 4310
 - [ ] bzoj 3145
 - [ ] bzoj 2806
 - [ ] bzoj 3756
 - [ ] bzoj 4768
-- [ ] bzoj 5084
 - [x] loj 2033
 - [x] hiho 1403
 - [x] hiho 1407
 - [x] hiho 1415
 - [x] hiho 1419
-- [ ] hiho 1441
+- [x] hiho 1441
 - [x] hiho 1445
 - [x] hiho 1449
 - [x] hiho 1457
@@ -74,6 +74,8 @@
 
 - [x] cf 161D
 - [x] bzoj 1316
+- [x] bzoj 2599
+- [x] bzoj 2152
 - [ ] bzoj 3730
 - [ ] bzoj 3672
 - [ ] bzoj 3924
@@ -464,6 +466,7 @@
 - [ ] bzoj 4518
 - [ ] bzoj 4321
 - [x] bzoj 2958
+- [x] bzoj 1609
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)
@@ -636,7 +639,6 @@
 - [ ] bzoj 4854
 - [ ] bzoj 4855
 - [ ] bzoj 4568
-- [ ] bzoj 4561
 - [ ] bzoj 4558
 - [ ] bzoj 4539
 - [ ] bzoj 4519
