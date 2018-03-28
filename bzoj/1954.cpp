@@ -1,5 +1,3 @@
-// dfs trie
-
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
@@ -7,7 +5,7 @@
 #include <cstring>
 #include <cmath>
 using namespace std;
-
+ 
 const int N=200010;
 int h[N],r[N],to[N],w[N],tot,n,k,root,ans,sz[N],f[N],dep[N],d[N],v[N],num,sum;
 void insert(int u,int v,int z){
@@ -17,9 +15,9 @@ void insert(int u,int v,int z){
     h[u]=tot++;
 }
 void ins(int u,int v,int z){insert(u,v,z);insert(v,u,z);}
-
+ 
 int ch[N * 35][2], ccc = 1;
-
+ 
 void add(int x) {
     int rt = 1;
     for(int i = 30 ; ~ i ; -- i) {
@@ -30,7 +28,7 @@ void add(int x) {
         rt = rt[ch][bit];
     }
 }
-
+ 
 int query(int x) {
     int ret = 0;
     int rt = 1;
@@ -45,7 +43,7 @@ int query(int x) {
     }
     return ret;
 }
-
+ 
 void dfs(int u, int fa) {
     for(int i = h[u] ; ~i ; i = r[i]) {
         int v = to[i];
@@ -56,7 +54,7 @@ void dfs(int u, int fa) {
         dfs(v, u);
     }
 }
-
+ 
 int main(){
     while(scanf("%d",&n)==1){
         memset(h,-1,sizeof(h));
