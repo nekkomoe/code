@@ -24,6 +24,9 @@
 - [x] bzoj 2865
 - [x] bzoj 2555
 - [x] bzoj 5084
+- [ ] bzoj 4180
+- [ ] bzoj 3413
+- [ ] bzoj 3230
 - [ ] bzoj 2099
 - [ ] bzoj 4310
 - [ ] bzoj 3145
@@ -31,6 +34,7 @@
 - [ ] bzoj 3756
 - [ ] bzoj 4768
 - [x] loj 2033
+- [ ] loj 6041
 - [x] hiho 1403
 - [x] hiho 1407
 - [x] hiho 1415
@@ -65,6 +69,7 @@
 ## kmp
 
 - [x] poj 2406
+- [x] bzoj 1355
 
 ## shift-and shift-or
 
@@ -248,11 +253,20 @@
 - [ ] bzoj 3262
 - [ ] hdu 5127
 
+## 并查集
+
+- [x] bzoj 1116
+- [ ] bzoj 1050
+
 ## 差分约束系统
 
 ## 最短路
 
+- [x] bzoj 1922
+- [x] bzoj 4289
 - [ ] bzoj 2143
+- [ ] bzoj 2118
+- [x] ezoj 1193
 
 ## AC自动机
 
@@ -266,6 +280,7 @@
 - [x] bzoj 3676
 - [ ] bzoj 2565
 - [ ] bzoj 4044
+- [x] bzoj 2342
 - [x] dloj 1003
 - [ ] ural 1960
 - [ ] TsinsenA1280
@@ -275,6 +290,7 @@
 ## 线段树/树状数组
 
 - [x] bzoj 2743
+- [x] bzoj 1858
 - [ ] bzoj 1568
 - [ ] bzoj 3938
 - [ ] bzoj 3533
@@ -339,9 +355,13 @@
 
 ## 01分数/乘积规划
 
+- [ ] bzoj 3232
+- [ ] bzoj 2395
+- [ ] bzoj 3571
+
 ## SCC
 
-- [ ] bzoj 1051
+- [x] bzoj 1051
 - [x] bzoj 1718
 
 ## 主席树
@@ -358,10 +378,11 @@
 - [ ] bozj 2653
 - [ ] bzoj 3772
 - [ ] bzoj 4826
+- [ ] bzoj 1901
 
 ## 基环树
 
-- [ ] bzoj 1040
+- [x] bzoj 1040
 - [ ] bzoj 1791
 - [ ] bzoj 2878
 - [ ] bzoj 3243
@@ -406,6 +427,7 @@
 - [ ] bzoj 3930
 - [ ] bzoj 2627
 - [ ] bzoj 3601
+- [ ] bzoj 4173
 - [ ] hdu 1695
 - [ ] uoj 221
 - [ ] 51nod 1238
@@ -415,12 +437,13 @@
 - [x] bzoj 2038
 - [x] bzoj 1086
 - [x] bzoj 2724
+- [x] bzoj 4810
 - [ ] bzoj 3757
 - [ ] bzoj 3052
 - [ ] bzoj 3460
-- [ ] bzoj 4810
 - [ ] bzoj 4866
 - [ ] bzoj 4540
+- [ ] bzoj 3798
 - [ ] hdu 4676
 - [x] loj 6290
 - [x] luogu P2709
@@ -461,12 +484,12 @@
 ## 动态规划/斜率优化/四边形不等式优化/决策单调性优化/SPFA优化
 
 - [x] bzoj 1010
+- [x] bzoj 2958
+- [x] bzoj 1609
 - [ ] bzoj 3875
 - [ ] bzoj 2734
 - [ ] bzoj 4518
 - [ ] bzoj 4321
-- [x] bzoj 2958
-- [x] bzoj 1609
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)
@@ -480,20 +503,43 @@
 - [ ] poj 1037 (hard)
 - [ ] poj 1737 (hard)
 
-## 期望dp
+## 状压dp
+
+- [ ] bzoj 4565
+
+## 概率/期望dp
 
 - [ ] bzoj 1426
+- [ ] bzoj 1419
+- [ ] bzoj 2510
+- [x] bzoj 3143
 
 ## 树形dp
 
 - [ ] luogu P3174
+- [x] ezoj 1191
 - [ ] poj 2486
 - [ ] poj 3345
 - [ ] poj 3585
+- [x] poj 3764
 - [ ] bzoj 3124
 - [ ] bzoj 3302
 - [ ] bzoj 2447
 - [ ] bzoj 2103
+- [x] bzoj 1131
+- [x] bzoj 1954
+- [ ] bzoj 3677
+
+## 数位dp
+
+- [ ] bzoj 3679
+- [ ] bzoj 3530
+
+## prufer序列
+
+- [ ] bzoj 1430
+- [ ] bzoj 1005
+- [ ] bzoj 1211
 
 ## 计算几何
 
@@ -520,15 +566,22 @@
 
 - [ ] bzoj 3680
 - [x] bzoj 4080
+- [x] bzoj 3632
+- [ ] poj 2420
 
-## 生成树
+## 生成树/矩阵树定理
 
 - [ ] poj 3164
 - [x] bzoj 1626
+- [ ] bzoj 1977
+- [ ] bzoj 3211
+- [ ] bzoj 4242
 
 ## 贪心
 
 - [ ] bzoj 2563
+- [ ] bzoj 1124
+- [ ] bzoj 3874
 - [x] ezoj 1167
 - [x] loj 6003
 
@@ -551,6 +604,21 @@
 - [ ] bzoj 2339
 - [ ] bzoj 3142
 
+## 矩阵乘法
+
+- [ ] bzoj 4128
+- [x] bzoj 4887
+
+## 拉格朗日乘数法
+
+- [ ] bzoj 2508
+- [ ] bzoj 2876
+
+## pick定理
+
+- [ ] poj 1265
+- [ ] poj 2954
+
 ## 仙人掌/圆方树
 
 - [ ] bzoj 1023
@@ -566,6 +634,10 @@
 - [ ] bzoj 4170
 - [ ] bzoj 4140
 - [ ] bzoj 1190
+
+## 平衡树
+
+- [x] ezoj 1192
 
 # 套题
 
