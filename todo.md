@@ -24,6 +24,8 @@
 - [x] bzoj 2865
 - [x] bzoj 2555
 - [x] bzoj 5084
+- [ ] bzoj 1692
+- [ ] bzoj 2258
 - [ ] bzoj 4180
 - [ ] bzoj 3413
 - [ ] bzoj 3230
@@ -49,15 +51,18 @@
 - [ ] hdu 5030
 - [ ] hdu 4622
 - [ ] hdu 4641
+- [ ] hdu 3948
 - [x] poj 1743
 - [x] poj 3261
 - [x] poj 3415
 - [x] poj 3294
 - [x] poj 2774
+- [ ] poj 2758
 - [ ] poj 3080
 - [ ] poj 3450
 - [ ] ural 1297
 - [ ] ural 1517
+- [ ] spoj 220
 - [x] spoj 8222
 - [x] spoj 694
 - [x] spoj 705
@@ -364,6 +369,11 @@
 - [x] bzoj 1051
 - [x] bzoj 1718
 
+## trie
+
+- [x] ezoj 1195
+- [x] bzoj 3469
+
 ## 主席树
 
 - [ ] poj 2104
@@ -486,10 +496,13 @@
 - [x] bzoj 1010
 - [x] bzoj 2958
 - [x] bzoj 1609
+- [x] bzoj 2149
 - [ ] bzoj 3875
 - [ ] bzoj 2734
 - [ ] bzoj 4518
 - [ ] bzoj 4321
+- [ ] bzoj 3156
+- [x] ezoj 1196
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)
@@ -513,6 +526,8 @@
 - [ ] bzoj 1419
 - [ ] bzoj 2510
 - [x] bzoj 3143
+- [x] bzoj 3470
+- [x] ezoi 1194
 
 ## 树形dp
 
