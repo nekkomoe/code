@@ -1,55 +1,28 @@
-//二分
-
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 typedef long long ll;
 
-int n;
+const int N = 5000010;
 
-ll Sa, Sb, Sc, Sd, A[5000010], Mod, ans;
+ll n, sa, sb, sc, sd, a[N], mod, ans, mx = 0xcfcfcfcfcfcfcfcfll;
 
-inline ll F(ll x) {
-    ll t0 = x % Mod;
-    ll t1 = ((t0 * t0) % Mod) % Mod;
-    ll t2 = (t1 * t0) % Mod;
-    return (((Sa * t2) % Mod) +
-            ((Sb * t1) % Mod) +
-            ((Sc * t0) % Mod) +
-            Sd) % Mod;
-}
-
-bool check(ll x) {
-    ll mx = 1;
-    for(int i = 1 ; i <= n ; i ++) {
-        mx = max(mx, A[i] - x);
-        if(mx > A[i] + x) return 0;
-    }
-    return 1;
+ll f(ll x) {
+    return ((((sa % mod * x % mod * x % mod * x % mod
+        + sb % mod * x % mod * x % mod) % mod
+        + sc % mod * x % mod) % mod) % mod
+        + sd % mod) % mod;
 }
 
 int main() {
-    ios :: sync_with_stdio(0);
-    cin.tie(0);
-    cin >> n >> Sa >> Sb >> Sc >> Sd >> A[1] >> Mod;
-    for(int i = 2 ; i <= n ; i ++) {
-        A[i] = F(A[i - 1]) + F(A[i - 2]);
-        A[i] %= Mod;
-    }
-    ll L = 0, R = Mod;
-    while(L <= R) {
-        ll M = (L + R) / 2;
-        if(check(M)) {
-            ans = M;
-            R = M - 1;
-        } else {
-            L = M + 1;
-        }
+    ios :: sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    cin >> n >> sa >> sb >> sc >> sd >> a[1] >> mod;
+    for(int i = 1 ; i <= n ; ++ i) {
+        if(i > 1) a[i] = (f(a[i - 1]) + f(a[i - 2])) % mod;
+        if(mx <= a[i]) mx = a[i];
+        else ans = max(ans, (mx - a[i] + 1) >> 1);
     }
     cout << ans << endl;
 }
+
