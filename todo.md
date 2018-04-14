@@ -236,6 +236,7 @@
 - [ ] cf 553 E
 - [ ] loj 556
 - [ ] uoj 182
+
 ## 树链剖分
 
 - [x] bzoj 4034
@@ -375,7 +376,7 @@
 - [ ] bzoj 3571
 - [ ] bzoj 4819
 
-## SCC
+## scc
 
 - [x] bzoj 1051
 - [x] bzoj 1718
@@ -389,11 +390,11 @@
 
 - [ ] poj 2104
 - [ ] hdu 2665
+- [ ] hdu 4348
 - [x] bzoj 3524
 - [ ] bzoj 2809
 - [ ] bzoj 1803
 - [ ] bzoj 3932
-- [ ] hdu 4348
 - [ ] bzoj 3123
 - [ ] bzoj 1146
 - [ ] bozj 2653
@@ -459,6 +460,7 @@
 - [x] bzoj 1086
 - [x] bzoj 2724
 - [x] bzoj 4810
+- [x] bzoj 5089
 - [ ] bzoj 3757
 - [ ] bzoj 3052
 - [ ] bzoj 3460
@@ -466,7 +468,6 @@
 - [ ] bzoj 4540
 - [ ] bzoj 3798
 - [ ] bzoj 4028
-- [x] bzoj 5089
 - [ ] hdu 4676
 - [x] loj 6290
 - [x] luogu P2709
