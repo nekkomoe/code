@@ -518,8 +518,10 @@
 - [ ] bzoj 4321
 - [ ] bzoj 3156
 - [ ] bzoj 2244
+- [x] bzoj 3963
 - [x] ezoj 1196
 - [ ] hdu 3507
+- [x] hdu 3842
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)

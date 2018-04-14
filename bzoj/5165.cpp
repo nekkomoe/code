@@ -52,7 +52,7 @@ inline void ddd(int u) {
     for(int i = head[u] ; i ; i = rest[i]) ddd(to[i]);
 }
 
-inline void dfs(int u) {fr
+inline void dfs(int u) {
     vis[u] = 1;
     for(int i = hd[u] ; i ; i = nxt[i]) {
         if(vis[val[i].v]) {

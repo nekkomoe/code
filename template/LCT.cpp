@@ -1,8 +1,5 @@
 // https://www.luogu.org/problemnew/show/P3690 
 
-%:pragma GCC optimize(2)
-%:pragma GCC optimize(3)
-
 #include <bits/stdc++.h>
 
 using namespace std;
