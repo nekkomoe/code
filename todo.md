@@ -505,23 +505,26 @@
 - [ ] luogu P4324 / poj 3522
 - [x] luogu P3690
 
-## 动态规划/斜率优化/四边形不等式优化/决策单调性优化/SPFA优化
+## 斜率优化
 
 - [x] bzoj 1010
+- [x] bzoj 2149
+- [x] bzoj 1492
+
+## spfa优化
+
+- [x] bzoj 3875
+
+## 动态规划
+
 - [x] bzoj 2958
 - [x] bzoj 1609
-- [x] bzoj 2149
-- [x] bzoj 3875
-- [x] bzoj 1492
 - [ ] bzoj 2734
 - [ ] bzoj 4518
 - [ ] bzoj 4321
 - [ ] bzoj 3156
 - [ ] bzoj 2244
-- [x] bzoj 3963
-- [x] ezoj 1196
 - [ ] hdu 3507
-- [x] hdu 3842
 - [ ] poj 1050 (easy)
 - [ ] poj 1953 (easy)
 - [ ] poj 1015 (normal)
@@ -534,6 +537,10 @@
 - [ ] poj 1920
 - [ ] poj 1037 (hard)
 - [ ] poj 1737 (hard)
+
+## 决策单调性优化
+
+- [x] bzoj 1563
 
 ## 状压dp
 
