@@ -90,7 +90,6 @@
 - [x] bzoj 2599
 - [x] bzoj 2152
 - [ ] bzoj 3730
-- [ ] bzoj 3672
 - [ ] bzoj 3697
 - [ ] bzoj 3924
 - [ ] bzoj 1095
@@ -505,77 +504,98 @@
 - [ ] luogu P4324 / poj 3522
 - [x] luogu P3690
 
-## 斜率优化
+## dp
+
+### 递推
+
+- [x] bzoj 1609
+- [ ] bzoj 4321
+- [ ] poj 1050
+- [ ] poj 1953
+- [ ] poj 2161
+- [ ] poj 1920
+
+### 区间dp
+
+- [x] bzoj 2958
+- [ ] poj 1141
+
+### 斜率优化
 
 - [x] bzoj 1010
 - [x] bzoj 2149
 - [x] bzoj 1492
+- [x] bzoj 3156
+- [ ] bzoj 4518
+- [ ] bzoj 3835
+- [ ] bzoj 1911
+- [ ] bzoj 1597
+- [ ] bzoj 3672
+- [ ] bzoj 4654
+- [ ] hdu 3507
+- [ ] luogu P4360
 
-## spfa优化
+## 决策单调性
+
+- [x] bzoj 1563
+- [ ] bzoj 2216
+
+### spfa优化
 
 - [x] bzoj 3875
 
-## 动态规划
+### 计数
 
-- [x] bzoj 2958
-- [x] bzoj 1609
-- [ ] bzoj 2734
-- [ ] bzoj 4518
-- [ ] bzoj 4321
-- [ ] bzoj 3156
+- [ ] poj 1671
+- [ ] poj 1037
+- [ ] poj 1737
+
+### 乱搞
+
 - [ ] bzoj 2244
-- [ ] hdu 3507
-- [ ] poj 1050 (easy)
-- [ ] poj 1953 (easy)
-- [ ] poj 1015 (normal)
-- [ ] poj 1717 (normal)
-- [ ] poj 1141 (hard)
-- [ ] poj 1671 (hard)
-- [ ] poj 2161 (extreme)
 - [ ] poj 1112
-- [ ] poj 2151
-- [ ] poj 1920
-- [ ] poj 1037 (hard)
-- [ ] poj 1737 (hard)
 
-## 决策单调性优化
+### 背包
 
-- [x] bzoj 1563
+- [ ] poj 1953
 
-## 状压dp
+### 状压dp
 
 - [ ] bzoj 4565
+- [ ] bzoj 2734
 
-## 概率/期望dp
+### 概率/期望dp
 
+- [x] bzoj 3143
+- [x] bzoj 3470
 - [ ] bzoj 1426
 - [ ] bzoj 1419
 - [ ] bzoj 2510
-- [x] bzoj 3143
-- [x] bzoj 3470
 - [x] ezoi 1194
+- [ ] poj 2151
 
-## 树形dp
+### 树形dp
 
 - [ ] luogu P3174
 - [x] ezoj 1191
+- [x] poj 3764
 - [ ] poj 2486
 - [ ] poj 3345
 - [ ] poj 3585
-- [x] poj 3764
+- [x] bzoj 1131
+- [x] bzoj 1954
 - [ ] bzoj 3124
 - [ ] bzoj 3302
 - [ ] bzoj 2447
 - [ ] bzoj 2103
-- [x] bzoj 1131
-- [x] bzoj 1954
 - [ ] bzoj 3677
 - [ ] bzoj 4813
 
-## 数位dp
+### 数位dp
 
 - [ ] bzoj 3679
 - [ ] bzoj 3530
+- [ ] poj 1953
 
 ## prufer序列
 
@@ -586,6 +606,7 @@
 ## 计算几何
 
 - [x] bzoj 1007
+- [x] bzoj 2829
 - [ ] bzoj 1038
 - [ ] bzoj 1069
 - [ ] bzoj 1137
@@ -595,7 +616,6 @@
 - [ ] bzoj 2280
 - [ ] bzoj 2618
 - [ ] bzoj 2732
-- [x] bzoj 2829
 - [ ] bzoj 2832
 - [ ] bzoj 2961
 - [ ] bzoj 3199
@@ -606,9 +626,9 @@
 
 ## 随机化
 
-- [ ] bzoj 3680
 - [x] bzoj 4080
 - [x] bzoj 3632
+- [ ] bzoj 3680
 - [ ] poj 2420
 
 ## 生成树/矩阵树定理
@@ -650,8 +670,8 @@
 
 ## 矩阵乘法
 
-- [ ] bzoj 4128
 - [x] bzoj 4887
+- [ ] bzoj 4128
 
 ## 拉格朗日乘数法
 
