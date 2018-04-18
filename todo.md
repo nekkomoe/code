@@ -311,6 +311,7 @@
 
 - [x] bzoj 2743
 - [x] bzoj 1858
+- [x] bzoj 3211
 - [ ] bzoj 1568
 - [ ] bzoj 3938
 - [ ] bzoj 3533
@@ -543,10 +544,10 @@
 - [x] bzoj 2149
 - [x] bzoj 1492
 - [x] bzoj 3156
-- [ ] bzoj 4518
-- [ ] bzoj 3835
 - [x] bzoj 1911
 - [x] bzoj 1597
+- [ ] bzoj 4518
+- [ ] bzoj 3835
 - [ ] bzoj 3672
 - [ ] bzoj 4654
 - [x] hdu 3507
