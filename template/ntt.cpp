@@ -41,7 +41,7 @@ void ntt(ll *t, int n, int ty) {
             for(int k = j ; k < j + i / 2 ; ++ k) {
                 ll u = f[k], v = w * f[k + i / 2] % p;
                 f[k] = (u + v) % p;
-                f[k + i / 2] = (u - v + p) % p;
+                f[k + i / 2] = ((u - v) % p + p) % p;
                 w = w * wn % p;
             }
         }
@@ -52,10 +52,11 @@ void ntt(ll *t, int n, int ty) {
 }
 
 int main() {
-    scanf("%d%d", &n, &m), n ++, m ++;
-    for(len = 1 ; len <= n + m + 5 ; len <<= 1);
+    scanf("%d%d", &n, &m);
     for(int i = 0 ; i < n ; ++ i) scanf("%lld", &a[i]);
     for(int i = 0 ; i < m ; ++ i) scanf("%lld", &b[i]);
+    n ++, m ++;
+    for(len = 1 ; len <= n + m + 5 ; len <<= 1);
     inv = pw(len, p - 2);
     ntt(a, len, 0), ntt(b, len, 0);
     for(int i = 0 ; i < len ; ++ i) a[i] = a[i] * b[i] % p;

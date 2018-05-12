@@ -44,7 +44,7 @@ void ntt(ll *t, int n, int d) {
             for(int k = j ; k < j + i / 2 ; ++ k) {
                 ll u = f[k], v = w * f[k + i / 2];
                 f[k] = (u + v) % p;
-                f[k + i / 2] = (u - v + p) % p;
+                f[k + i / 2] = ((u - v) % p + p) % p;
                 w = w * wn % p;
             }
         }

@@ -38,7 +38,7 @@ void closeSync() {
 }
 
 template<class T> inline void read(T &x) {
-    x = 0; register char ch = getchar();
+    x = 0; char ch = getchar();
     while(ch < '0' || ch > '9') ch = getchar();
     while('0' <= ch && ch <= '9') x = (x << 1) + (x << 3) + (ch ^ '0'), ch = getchar();
 }
@@ -87,7 +87,7 @@ inline void dfs(int u, int tp) {
     u[lpos] = ++ cnt;
     u[top] = tp;
     if(u[son]) dfs(u[son], tp);
-    for(register int i = head[u], v ; i ; i = rest[i]) {
+    for(int i = head[u], v ; i ; i = rest[i]) {
         v = to[i];
         if(v != u[fa] && v != u[son]) {
             dfs(v, v);
@@ -113,7 +113,7 @@ inline void push(int id, int l, int r) {
 }
 
 inline void update(int id, int l, int r) {
-    register int mid = (l + r) >> 1;
+    int mid = (l + r) >> 1;
     push(id, l, r); push(lc, l, mid); push(rc, mid + 1, r);
     (id[sum] = lc[sum] + rc[sum]) %= p;
 }
@@ -123,7 +123,7 @@ inline void modify(int id, int l, int r, int ql, int qr, int v) {
     if(l > qr || r < ql) return;
     if(ql <= l && r <= qr) id[tag] += v;
     else {
-        register int mid = (l + r) >> 1;
+        int mid = (l + r) >> 1;
         modify(lc, l, mid, ql, qr, v);
         modify(rc, mid + 1, r, ql, qr, v);
         update(id, l, r);
@@ -135,7 +135,7 @@ inline int query(int id, int l, int r, int ql, int qr) {
     if(l > qr || r < ql) return 0;
     if(ql <= l && r <= qr) return id[sum] % p;
     else {
-        register int mid = (l + r) >> 1;
+        int mid = (l + r) >> 1;
         return (query(lc, l, mid, ql, qr) + query(rc, mid + 1, r, ql, qr)) % p;
     }
 }
@@ -151,7 +151,7 @@ inline void modify(int u, int v, int z) {
 }
 
 inline int query(int u, int v) {
-    register int ret = 0;
+    int ret = 0;
     while(u[top] != v[top]) {
         if(u[top][deep] < v[top][deep]) swap(u, v);
         ret += query(1, 1, n, u[top][lpos], u[lpos]);
@@ -167,20 +167,20 @@ int x[N];
 
 int main() {
     read(n); read(m); read(root); read(p);
-    for(register int i = 1 ; i <= n ; ++ i) {
+    for(int i = 1 ; i <= n ; ++ i) {
         read(x[i]);
     }
-    for(register int i = 1, u, v ; i < n ; ++ i) {
+    for(int i = 1, u, v ; i < n ; ++ i) {
         read(u); read(v);
         add(u, v);
         add(v, u);
     }
     dfs(root);
     dfs(root, root);
-    for(register int i = 1 ; i <= n ; ++ i) {
+    for(int i = 1 ; i <= n ; ++ i) {
         modify(1, 1, n, i[lpos], i[lpos], x[i] % p);
     }
-    for(register int i = 1, op, x, y, z ; i <= m ; ++ i) {
+    for(int i = 1, op, x, y, z ; i <= m ; ++ i) {
         read(op); read(x);
         if(op == 1) {
             read(y); read(z);

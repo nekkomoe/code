@@ -55,7 +55,7 @@ int main() {
     for(int i = 1, u, v ; i < n ; ++ i) {
         scanf("%d%d", &u, &v);
         add(u, v);
-        add(v ,u);
+        add(v, u);
     }
     for(int i = 1 ; i <= n ; ++ i) {
         fa[i] = i;
