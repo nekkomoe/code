@@ -84,6 +84,8 @@
 - [x] bzoj 3733
 - [x] bzoj 1800
 - [ ] bzoj 2824
+- [ ] bzoj 4800
+- [ ] bzoj 3643
 
 ## 二分
 
@@ -152,9 +154,9 @@
 - [x] bzoj 3438
 - [x] bzoj 3130
 - [x] bzoj 1001
+- [x] bzoj 1061
 - [ ] bzoj 1565
 - [ ] bzoj 1797
-- [x] bzoj 1061
 - [ ] bzoj 2245
 - [ ] bzoj 4276
 - [ ] bzoj 3630
@@ -163,7 +165,6 @@
 - [ ] bzoj 2507
 - [ ] bzoj 3171
 - [ ] bzoj 2879
-- [ ] bzoj 1001
 - [ ] bzoj 2500
 - [ ] bzoj 1280
 - [ ] bzoj 1449
@@ -276,6 +277,7 @@
 - [ ] bzoj 3745
 - [ ] bzoj 3262
 - [ ] hdu 5127
+- [x] bzoj 4285
 
 ## 并查集
 
@@ -310,7 +312,6 @@
 - [x] bzoj 2938
 - [x] bzoj 2754
 - [x] bzoj 3172
-- [ ] bzoj 3530
 
 ## manacher/回文树/回文自动机
 
@@ -331,13 +332,16 @@
 - [x] bzoj 1858
 - [x] bzoj 3211
 - [x] bzoj 5039
+- [ ] bzoj 3165
 - [ ] bzoj 3825
+- [ ] bzoj 4636
+- [ ] bzoj 4364
+- [ ] bzoj 1756
 - [ ] bzoj 1568
 - [ ] bzoj 3938
 - [ ] bzoj 3533
 - [ ] bzoj 4276
 - [ ] bzoj 1453
-- [ ] bzoj 3165
 - [ ] bzoj 3638
 - [ ] bzoj 3073
 - [ ] bzoj 3653
@@ -346,12 +350,20 @@
 - [ ] bzoj 4540
 - [ ] bzoj 3545
 - [ ] bzoj 4597
+- [ ] bzoj 1636
+- [ ] bzoj 1699
+- [ ] bzoj 2770
+- [ ] bzoj 4631
+- [ ] bzoj 3939
+- [ ] bzoj 3038
+- [ ] bzoj 2752
 - [x] ezoj 1169
 - [x] ezoj 1185
 - [ ] uoj 88
 - [x] eoj 171
 - [x] nowcoder 105 H
 - [x] codeforces 438 D
+- [ ] codeforces 719 E
 - [ ] hdu 5306
 
 ## ST表
@@ -435,6 +447,7 @@
 - [ ] bzoj 3772
 - [ ] bzoj 4826
 - [ ] bzoj 1901
+- [ ] bzoj 4771
 - [x] bzoj 5178
 
 ## 基环树
@@ -582,9 +595,9 @@
 - [x] bzoj 1597
 - [x] bzoj 4518
 - [x] bzoj 1560
+- [x] bzoj 3675
 - [ ] bzoj 3835
 - [ ] bzoj 3672
-- [x] bzoj 3675
 - [ ] bzoj 4654
 - [x] hdu 3507
 - [ ] luogu P4360
@@ -599,6 +612,7 @@
 - [x] bzoj 1563
 - [x] bzoj 2216
 - [x] bzoj 4850
+- [x] bzoj 4653
 
 ### spfa优化
 
@@ -760,6 +774,10 @@
 
 - [x] bzoj 3028
 
+## 复数
+
+- [x] bzoj 3621
+
 ## 数学
 
 - [x] bzoj 1257
@@ -817,9 +835,9 @@
 ## 平衡树
 
 - [x] ezoj 1192
+- [x] bzoj 4923
 - [ ] bzoj 3323
 - [ ] bzoj 1507
-- [x] bzoj 4923
 
 ## ODT
 
