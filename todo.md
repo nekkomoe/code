@@ -257,6 +257,7 @@
 - [x] bzoj 4034
 - [x] bzoj 3083
 - [x] bzoj 2819
+- [ ] bzoj 5210
 - [ ] bzoj 4012
 - [ ] bzoj 3779
 - [ ] bzoj 3589
@@ -332,6 +333,7 @@
 - [x] bzoj 1858
 - [x] bzoj 3211
 - [x] bzoj 5039
+- [ ] bzoj 4085
 - [ ] bzoj 3165
 - [ ] bzoj 3825
 - [ ] bzoj 4636
@@ -363,7 +365,8 @@
 - [x] eoj 171
 - [x] nowcoder 105 H
 - [x] codeforces 438 D
-- [ ] codeforces 719 E
+- [x] codeforces 718 C
+- [x] hdu 5068
 - [ ] hdu 5306
 
 ## ST表
@@ -693,10 +696,6 @@
 ### min-max 容斥
 
 ### 容斥原理
-
-### 动态dp
-
-- [ ] bzoj 5210
 
 ## 计算几何
 
