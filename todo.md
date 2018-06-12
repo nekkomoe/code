@@ -491,7 +491,9 @@
 - [x] bzoj 1968
 - [x] bzoj 2818
 - [x] bzoj 2440
-- [ ] bzoj 3529
+- [x] bzoj 3529
+- [x] bzoj 1257
+- [x] bzoj 2956
 - [ ] bzoj 2693
 - [ ] bzoj 3309
 - [ ] bzoj 3944
@@ -780,7 +782,6 @@
 
 ## 数学
 
-- [x] bzoj 1257
 - [ ] bzoj 4588
 - [ ] bzoj 3782
 - [ ] bzoj 3193

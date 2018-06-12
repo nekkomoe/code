@@ -2,11 +2,11 @@
 using namespace std;
 typedef long long ll;
 const int N = 10000000 + 10;
-
+ 
 int p[N], tot, vis[N], mu[N], n, m;
-
+ 
 ll f[N];
-
+ 
 void sol() {
     ll ans = 0;
     scanf("%d%d", &n, &m); if(n > m) swap(n, m);
@@ -16,7 +16,7 @@ void sol() {
     }
     printf("%lld\n", ans);
 }
-
+ 
 int main() {
     mu[1] = 1;
     for(int i = 2 ; i <= 10000000 ; ++ i) {
