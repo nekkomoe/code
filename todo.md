@@ -494,7 +494,7 @@
 - [x] bzoj 3529
 - [x] bzoj 1257
 - [x] bzoj 2956
-- [ ] bzoj 2693
+- [x] bzoj 2693
 - [ ] bzoj 3309
 - [ ] bzoj 3944
 - [ ] bzoj 4407

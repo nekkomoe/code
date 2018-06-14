@@ -7,14 +7,13 @@ ll f[N], g[N];
 int vis[N], p[N], tot, n, m;
 
 int main() {
-	scanf("%d%d", &n, &m); if(n > m) swap(n, m);
 	f[1] = 1;
-	for(int i = 2 ; i <= m ; ++ i) {
+	for(int i = 2 ; i <= (int) 1e7 ; ++ i) {
 		if(!vis[i]) {
 			p[++ tot] = i;
 			f[i] = (1 - i) % mod;
 		}
-		for(int j = 1 ; j <= tot && (ll) i * p[j] <= m ; ++ j) {
+		for(int j = 1 ; j <= tot && (ll) i * p[j] <= (int) 1e7 ; ++ j) {
 			vis[i * p[j]] = 1;
 			if(i % p[j] == 0) {
 				f[i * p[j]] = f[i];
@@ -24,7 +23,8 @@ int main() {
 			}
 		}
 	}
-	for(int i = 1 ; i <= m ; ++ i) g[i] = (f[i] * i % mod + g[i - 1]) % mod;
+	for(int i = 1 ; i <= (int) 1e7 ; ++ i) g[i] = (f[i] * i % mod + g[i - 1]) % mod;
+	scanf("%d%d", &n, &m); if(n > m) swap(n, m);
 	ll ans = 0;
 	for(int i = 1, j ; i <= n ; i = j + 1) {
 		j = min(n / (n / i), m / (m / i));
