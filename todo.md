@@ -262,6 +262,8 @@
 - [ ] bzoj 3779
 - [ ] bzoj 3589
 - [ ] bzoj 4353
+- [x] loj 6208
+- [x] 51nod 1462
 
 ## 线段树分治/cdq分治
 
@@ -496,7 +498,7 @@
 - [x] bzoj 2956
 - [x] bzoj 2693
 - [ ] bzoj 3309
-- [ ] bzoj 3944
+- [x] bzoj 3944
 - [ ] bzoj 4407
 - [ ] bzoj 4176
 - [ ] bzoj 3561
@@ -512,6 +514,8 @@
 - [ ] hdu 1695
 - [ ] uoj 221
 - [ ] 51nod 1238
+- [x] 51nod 1244
+- [x] codeforces 933D
 
 ## 莫队/分块
 
@@ -612,6 +616,7 @@
 - [ ] poj 1160
 - [ ] codeforces 739 E
 - [x] bzoj 2654
+- [x] bzoj 5252
 
 ### 决策单调性
 
@@ -720,6 +725,7 @@
 - [ ] bzoj 3800
 - [ ] bzoj 4445
 - [ ] poj 1408
+- [x] codeforces 559D
 
 ## 随机化
 
