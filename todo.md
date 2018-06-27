@@ -497,14 +497,15 @@
 - [x] bzoj 1257
 - [x] bzoj 2956
 - [x] bzoj 2693
-- [ ] bzoj 3309
 - [x] bzoj 3944
-- [ ] bzoj 4407
+- [x] bzoj 4407
+- [x] bzoj 3561
+- [ ] bzoj 3309
 - [ ] bzoj 4176
-- [ ] bzoj 3561
 - [ ] bzoj 4652
 - [ ] bzoj 3512
 - [ ] bzoj 3516
+- [ ] bzoj 3517
 - [ ] bzoj 4659
 - [ ] bzoj 4174
 - [ ] bzoj 3930
@@ -512,9 +513,12 @@
 - [ ] bzoj 3601
 - [ ] bzoj 4173
 - [ ] hdu 1695
+- [x] hdu 5608
 - [ ] uoj 221
 - [ ] 51nod 1238
+- [x] 51nod 1239
 - [x] 51nod 1244
+- [x] 51nod 1220
 - [x] codeforces 933D
 
 ## 莫队/分块
@@ -635,6 +639,8 @@
 
 ### 计数
 
+- [x] bzoj 1307
+- [x] bzoj 1318
 - [ ] poj 1671
 - [ ] poj 1037
 - [ ] poj 1737
@@ -727,6 +733,10 @@
 - [ ] poj 1408
 - [x] codeforces 559D
 
+## 传递闭包
+
+- [x] bzoj4484
+
 ## 随机化
 
 - [x] bzoj 4080
@@ -811,7 +821,14 @@
 
 - [x] bzoj 4887
 - [x] bzoj 5313
+- [x] bzoj 2476
 - [ ] bzoj 4128
+- [ ] bzoj 1706
+- [ ] bzoj 2165
+
+## 倍增
+
+- [x] bzoj 2306
 
 ## 拉格朗日乘数法
 

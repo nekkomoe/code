@@ -79,9 +79,6 @@ template<typename T> inline void read(T &x) {
 }
 
 int main() {
-    freopen("tree.in", "r", stdin);
-    freopen("tree.out", "w", stdout);
-
     read(n);
     for(int i = 1, u, v ; i < n ; ++ i)
         read(u), read(v), add(u, v), add(v, u);
