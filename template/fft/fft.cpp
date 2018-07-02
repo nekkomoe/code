@@ -1,61 +1,48 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <string>
-#include <vector>
-#include <cmath>
-#include <complex>
+#include "bits/stdc++.h"
 using namespace std;
-
-const int N = 1e6 + 10;
-
-#define pi acos(-1)
-
 typedef complex<double> c;
+const int N = 4e6 + 10;
 
-c F[N], A[N], B[N];
+int n, m;
 
-int n;
-
-double q;
+c a[N], b[N], f[N];
 
 int rev(int x, int n) {
-    int ret = 0;
-    for(int i = 0 ; (1 << i) < n ; ++ i) ret = (ret << 1) | ((x & (1 << i)) > 0);
-    return ret;
+    int r = 0;
+    for(int i = 0 ; (1 << i) < n ; ++ i) r = (r << 1) | ((x >> i) & 1);
+    return r;
 }
 
-void fft(c *a, int n, int f) {
-    for(int i = 0 ; i < n ; ++ i) F[rev(i, n)] = a[i];
+void fft(c *a, int n, int ty) {
+    for(int i = 0 ; i < n ; ++ i) f[rev(i, n)] = a[i];
+
     for(int i = 2 ; i <= n ; i <<= 1) {
-        c wn = c(cos(2 * pi * f / i), sin(2 * pi * f / i));
+        c wn = c(cos(2 * acos(-1) * ty / i), sin(2 * acos(-1) * ty / i));
         for(int j = 0 ; j < n ; j += i) {
             c w = 1;
-            for(int k = j ; k < j + i / 2 ; ++ k){
-                c u = F[k], t = w * F[k + i / 2];
-                F[k] = u + t;
-                F[k + i / 2] = u - t;
+            for(int k = j ; k < j + i / 2 ; ++ k) {
+                c u = f[k], v = w * f[k + i / 2];
+                f[k] = u + v;
+                f[k + i / 2] = u - v;
                 w *= wn;
             }
         }
     }
-    for(int i = 0 ; i < n ; ++ i) a[i] = (F[i] /= (f == -1 ? n : 1));
+
+    for(int i = 0 ; i < n ; ++ i) {
+        a[i] = f[i];
+        if(ty == -1) a[i] /= n;
+    }
 }
 
-int main()
-{
-    scanf("%d",&n), -- n;
-    for(int i = 0 ; i <= n ; ++ i) scanf("%lf", &q), A[i] = q;
-    for(int i = 0 ; i < n ; ++ i)
-        B[i] = (-1.0) / ((double)(n - i) * (double)(n - i));
-    for(int i = n + 1 ; i <= 2 * n ; ++ i)
-        B[i] = -B[2 * n - i];
-    int m = 4 * n, nn = n;
-    for(n = 1 ; n <= m ; n <<= 1);
-    fft(A, n, 1), fft(B, n, 1);
-    for(int i = 0 ; i <= n ; ++ i) A[i] *= B[i];
-    fft(A, n, -1);
-    for(int i = nn ; i <= 2 * nn ; ++ i) printf("%lf\n", A[i].real());
+int main() {
+    ios :: sync_with_stdio(0);
+    cin >> n >> m, ++ n, ++ m;
+    for(int i = 0 ; i < n ; ++ i) cin >> a[i];
+    for(int i = 0 ; i < m ; ++ i) cin >> b[i];
+    int len = 1; while(len <= n + m + 5) len <<= 1;
+    fft(a, len, 1), fft(b, len, 1);
+    for(int i = 0 ; i < len ; ++ i) a[i] *= b[i];
+    fft(a, len, -1);
+    for(int i = 0 ; i < n + m - 1 ; ++ i) cout << int(a[i].real() + 0.5) << ' ';
 }
