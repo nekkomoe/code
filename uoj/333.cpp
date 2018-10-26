@@ -1,48 +1,26 @@
 #include <bits/stdc++.h>
-#define int long long 
-
 using namespace std;
+const int inf = 0x3f3f3f3f, N = 15;
+int a[N][N], n, m, f[N][N][1 << N];
 
-#define inf 0x3f3f3f3f3f3f3f3fll
+int to(int x) { return 1 << (x - 1); }
 
-int f[1 << 20], dis[14], a[14][14], lk[14][14], n, m, ans = inf;
-
-void dfs(int x) {
-    for(int i = 1 ; i <= n ; ++ i) {
-        if((x >> (i - 1)) & 1) {
-            for(int j = 1 ; j <= n ; ++ j) {
-                if(!((x >> (j - 1)) & 1) && lk[i][j]) {
-                    if(f[1 << (j - 1) | x] > f[x] + dis[i] * a[i][j]) {
-                        int t = dis[j];
-                        dis[j] = dis[i] + 1;
-                        f[1 << (j - 1) | x] = f[x] + dis[i] * a[i][j];
-                        dfs(1 << (j - 1) | x);
-                        dis[j] = t;
-                    }
-                }
-            }
-        }
-    }
+int dfs(int u, int dep, int S) {
+	int &x = f[u][dep][S]; if(~ x) return x; if(!S) return x = 0; x = inf;
+	for(int v = 1 ; v <= n ; ++ v)
+		if(a[u][v] != inf && (S & to(v)))
+			for(int T = S ; T ; T = (T - 1) & S)
+				if(!(T & to(u)) && (T & to(v)))
+					x = min(x, dfs(v, dep + 1, T - to(v)) + dfs(u, dep, S - T) + dep * a[u][v]);
+	return x;
 }
 
-signed main() {
-cin >> n >> m;
-    memset(a, 0x3f, sizeof a);
-    for(int i = 1, u, v, w ; i <= m ; ++ i) {
-cin >> u >> v >> w;
-        if(w < a[u][v]) {
-            a[u][v] = a[v][u] = w;
-            lk[u][v] = lk[v][u] = 1;
-        }
-    }
-    for(int i = 1 ; i <= n ; ++ i) {
-        memset(dis, 0x3f, sizeof dis);
-        for(int j = 1 ; j < (1 << n) ; ++ j) f[j] = inf;
-        dis[i] = 1, f[1 << (i - 1)] = 0;
-        dfs(1 << (i - 1));
-        ans = min(ans, f[(1 << n) - 1]);
-    }
-if(ans == 1046) ans= 1043;
-cout << ans << endl;
+int main() {
+	memset(f, -1, sizeof f), memset(a, 0x3f, sizeof a);
+	scanf("%d%d", &n, &m);
+	for(int i = 1, u, v, w ; i <= m ; ++ i) scanf("%d%d%d", &u, &v, &w), a[u][v] = a[v][u] = min(a[u][v], w);
+	int ans = inf;
+	int all = to(n + 1) - 1;
+	for(int i = 1 ; i <= n ; ++ i) ans = min(ans, dfs(i, 1, all - to(i)));
+	printf("%d\n", ans);
 }
-
