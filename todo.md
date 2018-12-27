@@ -231,7 +231,9 @@
 - [x] bzoj 2194
 - [x] bzoj 3527
 - [x] bzoj 3456
-- [ ] bzoj 4555
+- [x] bzoj 4555
+- [x] bzoj 4036
+- [ ] bzoj 4589
 - [ ] bzoj 5093
 - [ ] bzoj 3509
 - [ ] bzoj 3557
@@ -248,9 +250,12 @@
 - [ ] hdu 5730
 - [ ] hdu 5830
 - [ ] hdu 4609
-- [ ] cf 553 E
+- [ ] hdu 5909
+- [ ] codeforces 553 E
+- [ ] codeforces 662C
 - [ ] loj 556
 - [ ] uoj 182
+- [ ] hihocoder 1496
 
 ## 树链剖分
 
@@ -503,22 +508,23 @@
 - [x] bzoj 3944
 - [x] bzoj 4407
 - [x] bzoj 3561
-- [ ] bzoj 3309
+- [x] bzoj 3309
 - [ ] bzoj 4176
-- [ ] bzoj 4652
-- [ ] bzoj 3512
-- [ ] bzoj 3516
-- [ ] bzoj 3517
-- [ ] bzoj 4659
+- [x] bzoj 4652
+- [x] bzoj 3512
+- [x] bzoj 3516
+- [x] bzoj 3517
+- [x] bzoj 4659
+- [x] bzoj 2694
 - [ ] bzoj 4174
-- [ ] bzoj 3930
+- [x] bzoj 3930
 - [ ] bzoj 2627
-- [ ] bzoj 3601
-- [ ] bzoj 4173
-- [ ] hdu 1695
+- [x] bzoj 3601
+- [x] bzoj 4173
+- [x] hdu 1695
 - [x] hdu 5608
-- [ ] uoj 221
-- [ ] 51nod 1238
+- [x] uoj 221
+- [x] 51nod 1238
 - [x] 51nod 1239
 - [x] 51nod 1244
 - [x] 51nod 1220
@@ -928,12 +934,12 @@
 
 ### 2016
 
-- [ ] bzoj 4551
-- [ ] bzoj 4552
-- [ ] bzoj 4553
-- [ ] bzoj 4554
-- [ ] bzoj 4555
-- [ ] bzoj 4556
+- [x] bzoj 4551
+- [x] bzoj 4552
+- [x] bzoj 4553
+- [x] bzoj 4554
+- [x] bzoj 4555
+- [x] bzoj 4556
 
 ### 2017
 
