@@ -67,3 +67,36 @@ struct FastIO {
         if (wpos) fwrite(wbuf, 1, wpos, stdout), wpos = 0;
     }
 } io;
+
+namespace defs
+{
+    // #define getc() (S == T && (T = (S = B) + fread(B, 1, 1 << 15, stdin), S == T) ? EOF : *S++)
+    
+    // char B[1 << 15], *S = B, *T = B;
+    
+#define getc() getchar()
+    
+    template <class Type> Type read()
+    {
+        Type aa;
+        int bb = 1, ch;
+        while (ch = getc(), (ch < '0' || ch > '9') && ch != '-');
+        ch == '-' ? aa = 0, bb = -1 : aa = ch - '0';
+        while (ch = getc(), ch >= '0' && ch <= '9') aa = aa * 10 + ch - '0';
+        return bb == 1 ? aa : -aa;
+    }
+    
+    const unsigned int rand_x = 1401010315;
+    const unsigned int rand_y = 1000000019;
+    
+    unsigned int rand_cur;
+    
+    unsigned int rand_int()
+    {
+        return rand_cur = rand_cur * rand_x + rand_y;
+    }
+    
+    const int inf = 1071026353;
+    const int mod = 1000000007;
+    const int modx = 998244353;
+}
