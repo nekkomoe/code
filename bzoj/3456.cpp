@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 using namespace std;
 typedef long long ll;
 const ll p = 1004535809;
@@ -62,10 +62,10 @@ int main() {
     for(int i = 0 ; i <= n ; ++ i) G[i] = pw(2, (ll) i * (i - 1) / 2) * inv(fac[i]) % p, a[i] = G[i];
     sol(n + 10);
     for(int i = 0 ; i <= n ; ++ i) Ginv[i] = b[i];
-    int len = 1; while(len <= n + 10) len <<= 1;
+    int len = 1; while(len <= 2 * n) len <<= 1;
     ntt(Ginv, len, 0), ntt(T, len, 0);
     for(int i = 0 ; i < len ; ++ i) F[i] = Ginv[i] * T[i] % p;
     ntt(F, len, 1);
-    printf("%lld\n", F[n] * fac[n - 1] % p);
+    printf("%lld\n", F[n] * (n > 0 ? fac[n - 1] : 1) % p);
 }
 
