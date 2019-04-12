@@ -17,7 +17,7 @@ int main() {
     for(int i = 1 ; i <= n ; ++ i) ++ x[s[i]];
     for(int i = 1 ; i <= 256 ; ++ i) x[i] += x[i - 1];
     for(int i = n ; i ; -- i) sa[x[s[i]] --] = i;
-    for(int i = 1 ; i <= n ; ++ i) x[s[i]] = 0;
+    for(int i = 1 ; i <= 256 ; ++ i) x[i] = 0;
     rk[sa[1]] = 1;
     for(int i = 2 ; i <= n ; ++ i) rk[sa[i]] = rk[sa[i - 1]] + (s[sa[i]] != s[sa[i - 1]]);
     for(int k = 1 ; rk[sa[n]] < n ; k <<= 1) {
