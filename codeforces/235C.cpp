@@ -1,12 +1,9 @@
-#include <bits/stdc++.h>
-
+#include "bits/stdc++.h"
 using namespace std;
+typedef long long ll;
+const int N = 4e6 + 10;
 
-const int N = 1000000 * 2 * 2 + 10;
-
-map<int, int> ch[N];
-
-int pre[N], len[N], sz[N], last = 1, cnt = 1;
+int ch[N][26], len[N], pre[N], last = 1, cnt = 1, bak[N], tmp[N], sz[N];
 
 int nd(int l) {
     return len[++ cnt] = l, cnt;
@@ -14,52 +11,101 @@ int nd(int l) {
 
 void ins(int c) {
     int p, np, q, nq;
-    
-    pre[np = last = nd(len[p = last] + 1)] = 1;
+    pre[last = np = nd(len[p = last] + 1)] = 1;
     sz[np] = 1;
-    while(p && !ch[p][c]) ch[p][c] = np, p = pre[p];
-    
+    while(p && !ch[p][c]) {
+        ch[p][c] = np;
+        p = pre[p];
+    }
     if(p) {
         pre[np] = q = ch[p][c];
         if(len[p] + 1 != len[q]) {
-            nq = nd(len[p] + 1), ch[nq] = ch[q], pre[nq] = pre[q], pre[q] = pre[np] = nq;
-            while(p && ch[p][c] == q) ch[p][c] = nq, p = pre[p];
+            nq = nd(len[p] + 1);
+            memcpy(ch[nq], ch[q], sizeof ch[q]);
+            pre[nq] = pre[q];
+            pre[np] = pre[q] = nq;
+            while(p && ch[p][c] == q) {
+                ch[p][c] = nq;
+                p = pre[p];
+            }
         }
     }
 }
 
-int n, q, tmp[N], bak[N], flag[N];
+char str[N];
+int clk, dfn[N];
+ll ans;
+int u, l, n;
+void fed(int c) {
+    while(u && !ch[u][c]) {
+        u = pre[u], l = len[u];
+    }
+    if(u) {
+        u = ch[u][c], ++ l;
+    } else {
+        u = 1, l = 0;
+    }
+}
+void calc() {
+    if(l == n && dfn[u] < clk) {
+        dfn[u] = clk;
+        ans += sz[u];
+    }
+}
+void rem() {
+    if(l > n) {
+        -- l;
+        if(l == len[pre[u]]) {
+            u = pre[u];
+        }
+    }
+}
 
-char s[N];
-
-typedef long long ll;
+void runprog() {
+    ans = 0;
+    ++ clk;
+    scanf("%s", str + 1);
+    n = strlen(str + 1);
+    u = 1, l = 0;
+    for(int i = 1 ; i <= n ; ++ i) {
+        fed(str[i] - 'a');
+    }
+    calc();
+    for(int i = 1 ; i <= n ; ++ i) {
+        fed(str[i] - 'a');
+        rem();
+        calc();
+    }
+    printf("%lld\n", ans);
+}
 
 int main() {
-    n = strlen(s + scanf("%s", s + 1));
-    for(int i = 1 ; i <= n ; ++ i) ins(s[i]);
-    for(int i = 1 ; i <= cnt ; ++ i) tmp[len[i]] ++;
-    for(int i = 1 ; i <= cnt ; ++ i) tmp[i] += tmp[i - 1];
-    for(int i = cnt ; i ; -- i) bak[tmp[len[i]] --] = i;
-    for(int i = cnt ; i ; -- i) {
-        int x = bak[i];
-        sz[pre[x]] += sz[x];
+    scanf("%s", str + 1);
+    n = strlen(str + 1);
+    for(int i = 1 ; i <= n ; ++ i) {
+        ins(str[i] - 'a');
     }
-    scanf("%d", &q);
-    for(int t = 1 ; t <= q ; ++ t) {
-        ll ans = 0;
-        n = strlen(s + scanf("%s", s + 1));
-        for(int i = 1 ; i <= n ; ++ i) s[i + n] = s[i];
-        for(int i = 1, p = 1, l = 0 ; i <= n * 2 ; ++ i) {
-            int c = s[i];
-            while(p && !ch[p][c]) p = pre[p], l = len[p];
-            if(ch[p][c]) ++ l, p = ch[p][c];
-            else p = 1, l = 0;
-            if(l > n) while(len[pre[p]] >= n) p = pre[p], l = len[p];
-            if(l >= n && flag[p] != t) {
-                ans += sz[p];
-                flag[p] = t;
-            }
+    for(int i = 1 ; i <= cnt ; ++ i) {
+        tmp[len[i]] ++;
+    }
+    for(int i = 1 ; i <= n ; ++ i) {
+        tmp[i] += tmp[i - 1];
+    }
+    for(int i = cnt ; i ; -- i) {
+        bak[tmp[len[i]] --] = i;
+    }
+    for(int i = cnt ; i ; -- i) {
+        int u = bak[i];
+        if(pre[u]) {
+            sz[pre[u]] += sz[u];
         }
-        cout << ans << endl;
+    }
+
+    // for(int i = 1 ; i <= cnt ; ++ i) {
+    //     printf("%d %d %d\n", len[i], pre[i], sz[i]);
+    // }
+    int q; scanf("%d", &q);
+    while(q --) {
+        runprog();
     }
 }
