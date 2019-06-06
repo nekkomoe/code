@@ -7,7 +7,9 @@ int n;
 int mxh[N], son[N];
 
 void gmh(int u, int fa) {
-    for(int v: g[u]) {
+    // for(int v: g[u]) {
+    for(int t = 0 ; t < g[u].size() ; ++ t) {
+        int v = g[u][t];
         if(v != fa) {
             gmh(v, u);
             if(mxh[v] > mxh[son[u]]) {
@@ -28,7 +30,9 @@ void dfs(int u, int fa) {
     }
     ans += h[u][0];
     f[u][0] = 1;
-    for(int v: g[u]) {
+    // for(int v: g[u]) {
+    for(int t = 0 ; t < g[u].size() ; ++ t) {
+        int v = g[u][t];
         if(v != fa && v != son[u]) {
             f[v] = idx, idx += mxh[v] * 2;
             h[v] = idx, idx += mxh[v] * 2;
